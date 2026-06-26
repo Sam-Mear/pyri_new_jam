@@ -25,7 +25,6 @@ This template builds on top of [Bevy New 2D](https://github.com/TheBevyFlock/bev
 
   - [`bevy_asset_loader`](https://github.com/NiklasEi/bevy_asset_loader) for asset loading ergonomics
   - [`bevy_common_assets`](https://github.com/NiklasEi/bevy_common_assets) for loading `.ron` assets
-  - [`bevy_editor_pls`](https://github.com/jakobhellermann/bevy_editor_pls) for a live inspector window
   - [`bevy_mod_debugdump`](https://github.com/jakobhellermann/bevy_mod_debugdump) for inspecting the system graph
   - [`bevy_simple_prefs`](https://github.com/rparrett/bevy_simple_prefs) for remembering settings
   - [`iyes_progress`](https://github.com/IyesGames/iyes_progress) for loading bar progress tracking
