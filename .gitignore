@@ -6,3 +6,6 @@
 
 # Local packaged releases
 /build/
+
+# Local build settings
+pyri_new_jam_prefs.ron

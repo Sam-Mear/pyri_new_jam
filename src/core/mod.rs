@@ -6,7 +6,6 @@ pub mod camera;
 #[cfg(feature = "dev")]
 pub mod dev;
 pub mod pause;
-pub mod physics;
 pub mod state;
 pub mod window;
 
@@ -36,7 +35,6 @@ pub(super) fn plugin(app: &mut App) {
         #[cfg(feature = "dev")]
         dev::plugin,
         pause::plugin,
-        physics::plugin,
     ));
 }
 

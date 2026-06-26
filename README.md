@@ -23,7 +23,6 @@ This template builds on top of [Bevy New 2D](https://github.com/TheBevyFlock/bev
 <details>
   <summary><ins>3rd-party crates</ins></summary>
 
-  - [`avian2d`](https://github.com/Jondolf/avian) for 2D physics
   - [`bevy_asset_loader`](https://github.com/NiklasEi/bevy_asset_loader) for asset loading ergonomics
   - [`bevy_common_assets`](https://github.com/NiklasEi/bevy_common_assets) for loading `.ron` assets
   - [`bevy_editor_pls`](https://github.com/jakobhellermann/bevy_editor_pls) for a live inspector window

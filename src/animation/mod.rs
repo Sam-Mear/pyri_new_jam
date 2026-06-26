@@ -16,10 +16,7 @@ struct SaveBackupSystems;
 
 impl Configure for SaveBackupSystems {
     fn configure(app: &mut App) {
-        app.configure_sets(
-            PostUpdate,
-            ((UiSystem::Layout, PhysicsSet::Sync), Self).chain(),
-        );
+        app.configure_sets(PostUpdate, ((UiSystem::Layout), Self).chain());
     }
 }
 
